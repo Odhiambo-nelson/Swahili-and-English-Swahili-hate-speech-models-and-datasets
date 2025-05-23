@@ -1,10 +1,6 @@
 # Swahili-and-English-Swahili-hate-speech-models-and-datasets
+This repository provides scripts and configurations for fine-tuning SwahBERT, a BERT-based language model optimized for Swahili and code-switched English-Swahili textual data. The primary task demonstrated here is hate speech detection, although the model can be adapted for other downstream NLP tasks such as text classification, named entity recognition (NER), and sentiment analysis, provided appropriate labeled datasets are available. The repository also includes baseline implementations of a Bi-Directional LSTM (BiLSTM) and a non-linear Support Vector Machine (SVM) trained on the same dataset, enabling comprehensive model comparison.
 
-SwahBERT Fine-Tuning
-Overview
-This repository contains scripts and configurations for fine-tuning the SwahBERT model, a BERT-based language model optimized for Swahili texts. 
-The fine-tuning process adapts SwahBERT to specific hate speech detection using dataset having Swahili and code-switched English-Swahili textual data. The model could be fine-tuned for other specific task using labeled dataset, such as text classification, named entity recognition, or sentiment analysis.
-Prerequisites
 Before running the fine-tuning script, ensure you have the following installed:
 •	Python 3.8+
 •	PyTorch
